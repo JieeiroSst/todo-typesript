@@ -1,0 +1,22 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev src/index.ts",
+    "tsc": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "class-validator": "^0.13.2",
+    "express": "^4.17.3",
+    "moment": "^2.29.2",
+    "morgan": "^1.10.0",
+    "mysql2-promise": "^0.1.4",
+    "typedi": "^0.10.0",
+    "typeorm": "^0.3.5"
+  }
+}
